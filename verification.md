@@ -19,6 +19,23 @@ The character result agrees with the reported 83.05%. The historical word result
 - The inference helper successfully loaded the original checkpoint and returned predictions for two synthetic English headlines. This is a software smoke check, not an accuracy assessment.
 - Python syntax, local Markdown links, and the preserved source-file hashes were checked.
 
+## Fresh public-checkout verification
+
+A new copy was cloned anonymously from the published repository at commit `96947465605b8a4464765c413c468c0c1090a0d9`. A fresh Python 3.11.14 virtual environment was created and the repository's `requirements.txt` installed successfully. Both README baseline commands completed, wrote their models to `artifacts/`, and reproduced the values above. The default `python download_model.py` command downloaded and verified the checkpoint, and the README's `python predict.py` example returned a prediction successfully.
+
+## Dataset integrity checks
+
+The included CSV contains 3,802 records: 2,000 Fox News (`0`) and 1,802 NBC News (`1`). Checks found:
+
+- No missing headline, URL, source, or label fields.
+- No invalid labels or inconsistencies between labels, source names, and URL domains.
+- No duplicate URLs or duplicate headlines after case and whitespace normalization.
+- No normalized headline assigned conflicting labels.
+- No empty, symbol-only, or URL-only headline text.
+- The dataset and other preserved source artifacts matched the hashes in `model-manifest.json`.
+
+These checks cover structure and consistency. They do not constitute a manual review of every headline or establish that near-duplicate stories or other statistical biases are absent. The stored headline text is sufficient for the documented baseline runs; re-scraping the original news websites is unnecessary.
+
 ## Environment
 
 The checked environment used NumPy 2.2.6, pandas 2.3.3, scikit-learn 1.7.2, joblib 1.5.3, and PyTorch 2.10.0, matching the requirement files.
