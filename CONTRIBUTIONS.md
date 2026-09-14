@@ -1,15 +1,15 @@
-# Team contributions
+# Project team
 
-This was a team project for CIS 4190/5190 Applied Machine Learning at the University of Pennsylvania in Spring 2026. The following roles follow Section 4 of the original [project report](project-report.pdf).
+CIS 4190/5190 Applied Machine Learning · University of Pennsylvania · Spring 2026
 
-| Team member | Recorded contribution |
-|---|---|
-| **Yingyu Ma** | Led report writing and organization, including synthesizing dataset construction, model iterations, exploratory findings, and the final LaTeX presentation. |
-| **Jiheng Hou** | Led code implementation, including scraping, preprocessing, model training, leaderboard-oriented model iteration, evaluation, and backend compatibility. |
-| **Mingang Guo** | Contributed experiment discussion, error-analysis review, external-data validation, and figure/table/result checking. |
+**Team members:** Yingyu Ma, Jiheng Hou, Mingang Guo
+
+## Yingyu Ma's contribution
+
+Contributed to classifier implementation, headline data preparation and cleaning, and model training. Led the writing and organization of the project report, bringing together the team's methods, experiments, and findings.
 
 ## Portfolio edition
 
-This repository was assembled for Yingyu Ma's research portfolio in September 2026. The README, result explanation, provenance notes, dependency files, checkpoint downloader, and command-line inference helper were prepared with AI assistance. The original report, model wrapper, preprocessing, baseline-training logic, dataset, figure, and recorded experimental results are retained from the team materials.
+This repository was assembled for Yingyu Ma's research portfolio in September 2026. It includes the project report, model wrapper, preprocessing and baseline-training code, dataset, figure, and recorded experimental results. The portfolio documentation, dependency files, checkpoint downloader, and command-line inference helper were prepared with AI assistance.
 
-The repository owner does not claim sole authorship of the project implementation or the team results.
+The original code and experiment artifacts are linked in [PROVENANCE.md](PROVENANCE.md).
