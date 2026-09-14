@@ -57,7 +57,7 @@ python train_char_baseline.py --input-csv headlines.csv --output-model artifacts
 
 The included CSV has **3,802 real-headline rows**. The historical word-baseline result in the report used the 3,803-row cleaned base variant; a rerun on this stricter CSV can differ. The default split is stratified, 80/20, with random seed 42. Exported model files are ignored by Git.
 
-Both commands were verified on September 14, 2026: word-baseline accuracy was **79.37%** and character-baseline accuracy was **83.05%** on the included dataset. See [verification notes](verification.md) for the environment and reproduction scope.
+Both commands were verified on September 14, 2026: word-baseline accuracy was **79.37%** and character-baseline accuracy was **83.05%** on the included dataset.
 
 ### Use the submitted ensemble
 
@@ -77,7 +77,6 @@ Predictions use the course label convention: `0 = Fox News`, `1 = NBC News`. The
 |---|---|
 | `project-report.pdf` | Original full team report, including contributions and limitations |
 | `results.md`, `shortcut-experiments.csv` | Reported results and evaluation context |
-| `verification.md` | Current baseline reruns and checkpoint/inference checks |
 | `model.py`, `preprocess.py` | Original final-model wrapper and preprocessing |
 | `news_b_utils.py` | Original baseline data preparation |
 | `train_word_baseline.py`, `train_char_baseline.py` | Original baseline training scripts, renamed for clarity |
