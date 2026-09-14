@@ -5,7 +5,7 @@
 
 A headline classifier can score well by recognizing a publisher's URL structure without learning useful patterns in the headline itself. This team project studies that failure mode while developing a classifier for Fox News and NBC News headlines.
 
-[Read the project report](project-report.pdf) · [Explore the results](results.md) · [Team contributions](CONTRIBUTIONS.md) · [Original repository](https://github.com/Anthoneeee/ember-text-notes) · [Dataset on Hugging Face](https://huggingface.co/datasets/Anthoneeee/cis5190-project-b-news-headlines)
+[Read the project report](project-report.pdf) · [Explore the results](results.md) · [Project team](CONTRIBUTIONS.md) · [Original repository](https://github.com/Anthoneeee/ember-text-notes) · [Dataset on Hugging Face](https://huggingface.co/datasets/Anthoneeee/cis5190-project-b-news-headlines)
 
 ## Research question
 
@@ -37,9 +37,9 @@ The final checkpoint uses a heterogeneous ensemble, including TF-IDF/logistic-re
 
 ## My contribution
 
-I led the project report's writing and organization, synthesizing the team's data construction, model iterations, exploratory findings, and final LaTeX presentation. Jiheng Hou led the code implementation and model development; Mingang Guo contributed experimental discussion and result checking. See [the full contribution statement](CONTRIBUTIONS.md), consistent with Section 4 of the report.
+I contributed to classifier implementation, headline data preparation and cleaning, and model training. I also led the writing and organization of the project report, synthesizing the team's methods, experiments, and findings.
 
-This repository presents our team work with a clearer reading path, a verified model-download helper, and a simple inference entry point. It retains the original report and credits the original implementation.
+This repository brings together the project report, dataset, baseline training scripts, experimental results, and a command-line interface for the final model.
 
 ## Run the project
 
