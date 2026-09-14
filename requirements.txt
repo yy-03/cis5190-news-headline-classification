@@ -1,0 +1,2 @@
+-r baseline-requirements.txt
+torch==2.10.0

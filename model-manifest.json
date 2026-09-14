@@ -1,0 +1,50 @@
+{
+  "source_repository": "https://github.com/Anthoneeee/ember-text-notes",
+  "source_commit": "1d3d4b5d8d4c5f200792944f21bb9feb50b6170d",
+  "artifact": "model.pt",
+  "sha256": "08d8c1c8840e3357ea054d446443e82ff96b86c918b5a0cb7b25ef8e745b3770",
+  "size_bytes": 39396693,
+  "recorded_leaderboard_accuracy": 0.8741666666666666,
+  "files": [
+    {
+      "file": "model.py",
+      "source": "model.py",
+      "sha256": "5e169f8934b43657129e2160b8ca8d5ff250069bc0cdb70571f1a0f5868f84f3"
+    },
+    {
+      "file": "preprocess.py",
+      "source": "preprocess.py",
+      "sha256": "9d0416481c7a70d75c5d4b07ff09123b73d6c36beea98f7819c1ea93359dcf4a"
+    },
+    {
+      "file": "news_b_utils.py",
+      "source": "news_b_utils.py",
+      "sha256": "28ad3e7ce5ad7d4a4156a4c26a63a36b4cb9f636956e6f0927ab736f2b53a5ab"
+    },
+    {
+      "file": "train_word_baseline.py",
+      "source": "train_news_b_v1.py",
+      "sha256": "c21d9daeb65cbd9aa0122b6c5cf00af76375d85d5447ae05b17a8968fa2cfd69"
+    },
+    {
+      "file": "train_char_baseline.py",
+      "source": "train_char_lr_final.py",
+      "sha256": "8299f5dab097170e12e541cf98cbf13f8ac62b361c2f17dce02c1c1fd4224ef2"
+    },
+    {
+      "file": "headlines.csv",
+      "source": "deliverables/dataset/scraped_headlines_clean_headline_only.csv",
+      "sha256": "1125c9b0dd54a52f4be0a9d9b9898486937f85a0b034f3e8c34cd4556d54deb3"
+    },
+    {
+      "file": "shortcut-experiments.csv",
+      "source": "deliverables/report/exploratory_results_step7.csv",
+      "sha256": "cbcfb8927a304646da37394810f25154d76a8d6083e2fbb7b2efb0d00427b71f"
+    },
+    {
+      "file": "shortcut-analysis.png",
+      "source": "deliverables/figures/exploratory_cleaning_shortcut_step7.png",
+      "sha256": "05a82b45e81025ba9c9585c02b3b1c48b8abd145b7a44ac8686fc96654b8578c"
+    }
+  ]
+}

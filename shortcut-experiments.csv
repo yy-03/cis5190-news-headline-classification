@@ -1,0 +1,10 @@
+section,scenario,train_representation,test_representation,train_rows,test_rows,accuracy,macro_f1,avg_infer_ms,notes
+cleaning_effect,real_data_loose_clean,headline_only,headline_only,3042,761,0.8002628120893561,0.7990549649086234,0.01338321287779231,Baseline real-data training without strict dedup/filters.
+cleaning_effect,real_data_strict_clean,headline_only,headline_only,3042,761,0.8002628120893561,0.7990549649086234,0.013583607095926343,Real-data training with strict dedup and invalid-headline filters.
+cleaning_effect,stress_data_loose_clean,headline_only,headline_only,4563,761,0.759526938239159,0.7580227307083496,0.021805299605781796,"Stress train set with conflicting duplicates, no strict cleaning."
+cleaning_effect,stress_data_strict_clean,headline_only,headline_only,3042,761,0.8002628120893561,0.7990549649086234,0.015967477003942257,"Stress train set with conflicting duplicates, strict cleaning enabled."
+shortcut_risk,headline_to_headline,headline_only,headline_only,3042,761,0.8002628120893561,0.7990549649086234,0.01294272930354778,Task-aligned setting: headline train and headline inference.
+shortcut_risk,url_to_headline,url_only,headline_only,3042,761,0.5440210249671484,0.39042283302977626,0.015273708278580678,Shortcut mismatch: URL-train model tested on real headline text.
+shortcut_risk,url_to_url,url_only,url_only,3042,761,0.9671484888304862,0.9670060577051478,0.010943823915900035,Shortcut-aligned proxy setting using URL pseudo text for both train and test.
+shortcut_risk,headline_plus_url_to_headline_plus_url,headline_plus_url,headline_plus_url,3042,761,0.9566360052562418,0.9564769802688018,0.023093955321945164,Combined-feature model with both fields available at inference.
+shortcut_risk,headline_plus_url_to_headline_only,headline_plus_url,headline_only,3042,761,0.6530880420499343,0.6027052681537731,0.014873248357424644,Combined-feature model evaluated when URL signal is missing at inference.
