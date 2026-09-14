@@ -1,6 +1,6 @@
 # Results and evaluation context
 
-The tables below contain recorded team-project results, taken from the [original report](project-report.pdf) and [experiment table](shortcut-experiments.csv). Current portfolio baseline reruns are documented separately in [verification.md](verification.md).
+The tables below contain recorded team-project results, taken from the [original report](project-report.pdf) and [experiment table](shortcut-experiments.csv). Rerun results for the included dataset are summarized in the [README](README.md#reproduce-a-baseline).
 
 ## Submitted model and baselines
 
